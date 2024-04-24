@@ -16,3 +16,17 @@
 [2024-04-24T02:43:42.037+0000] {logging_mixin.py:188} INFO - [2024-04-24T02:43:42.037+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-24T02:43:42.056+0000] {logging_mixin.py:188} INFO - [2024-04-24T02:43:42.056+0000] {dag.py:3954} INFO - Setting next_dagrun for parallel_dag to 2024-04-23 00:00:00+00:00, run_after=2024-04-24 00:00:00+00:00
 [2024-04-24T02:43:42.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/repo/dags/parallel_dag.py took 0.062 seconds
+[2024-04-24T02:53:31.437+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/repo/dags/parallel_dag.py
+[2024-04-24T02:53:31.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/repo/dags/parallel_dag.py for tasks to queue
+[2024-04-24T02:53:31.438+0000] {logging_mixin.py:188} INFO - [2024-04-24T02:53:31.438+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/repo/dags/parallel_dag.py
+[2024-04-24T02:53:31.447+0000] {processor.py:840} INFO - DAG(s) 'parallel_dag' retrieved from /opt/airflow/dags/repo/dags/parallel_dag.py
+[2024-04-24T02:53:31.588+0000] {logging_mixin.py:188} INFO - [2024-04-24T02:53:31.588+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-24T02:53:31.601+0000] {logging_mixin.py:188} INFO - [2024-04-24T02:53:31.601+0000] {dag.py:3954} INFO - Setting next_dagrun for parallel_dag to 2024-04-23 00:00:00+00:00, run_after=2024-04-24 00:00:00+00:00
+[2024-04-24T02:53:31.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/repo/dags/parallel_dag.py took 0.179 seconds
+[2024-04-24T02:54:01.761+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/repo/dags/parallel_dag.py
+[2024-04-24T02:54:01.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/repo/dags/parallel_dag.py for tasks to queue
+[2024-04-24T02:54:01.766+0000] {logging_mixin.py:188} INFO - [2024-04-24T02:54:01.766+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/repo/dags/parallel_dag.py
+[2024-04-24T02:54:01.780+0000] {processor.py:840} INFO - DAG(s) 'parallel_dag' retrieved from /opt/airflow/dags/repo/dags/parallel_dag.py
+[2024-04-24T02:54:01.801+0000] {logging_mixin.py:188} INFO - [2024-04-24T02:54:01.801+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-24T02:54:01.814+0000] {logging_mixin.py:188} INFO - [2024-04-24T02:54:01.814+0000] {dag.py:3954} INFO - Setting next_dagrun for parallel_dag to 2024-04-23 00:00:00+00:00, run_after=2024-04-24 00:00:00+00:00
+[2024-04-24T02:54:01.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/repo/dags/parallel_dag.py took 0.077 seconds
